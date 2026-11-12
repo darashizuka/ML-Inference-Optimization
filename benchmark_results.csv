@@ -1,0 +1,9 @@
+Model,Precision,Size (MB),Latency (ms),Speedup,Accuracy,Acc Delta
+MobileNetV3-Small,FP32,9.8,12.1,1.00x,71.0%,Baseline
+MobileNetV3-Small,FP16,4.9,130.8,0.09x,71.0%,+0.0%
+MobileNetV3-Small,INT8,5.2,11.8,1.02x,69.0%,-2.0%
+EfficientNet-V2-S,FP32,82.7,143.8,1.00x,87.0%,Baseline
+EfficientNet-V2-S,FP16,41.5,4930.3,0.03x,87.0%,+0.0%
+EfficientNet-V2-S,INT8,79.0,143.7,1.00x,87.0%,+0.0%
+DistilBERT (SST-2),FP32,255.5,155.7,1.00x,94.0%,Baseline
+DistilBERT (SST-2),INT8,132.3,113.7,1.37x,93.0%,-1.0%
